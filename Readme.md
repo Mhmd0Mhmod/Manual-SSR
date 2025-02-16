@@ -2,23 +2,17 @@
 
 ## Overview
 
-This project is a manual implementation of Server-Side Rendering (SSR).
+This project is a manual implementation of Server-Side Rendering (SSR) with React.
 
 ## File Structure
 
 ```
 /D:/Work/Manual-SSR/
-├── src/
-│   ├── index.js
-│   ├── server.js
-│   └── components/
-│       ├── Header.js
-│       └── Footer.js
-├── public/
-│   ├── index.html
-│   └── styles.css
-├── package.json
-└── README.md
+├── client.js
+├── index.html
+├── server.js
+├── start.js
+└── Readme.md
 ```
 
 ## Getting Started
@@ -31,19 +25,15 @@ This project is a manual implementation of Server-Side Rendering (SSR).
 
 2. **Run the server**:
    ```sh
-   npm start
+   node --watch start.js
    ```
 
 ## Project Files
 
-- **src/index.js**: Entry point for the client-side application.
-- **src/server.js**: Server-side code to handle SSR.
-- **src/components/**: Contains React components used in the application.
-  - **Header.js**: Header component.
-  - **Footer.js**: Footer component.
-- **public/index.html**: HTML template for the application.
-- **public/styles.css**: CSS styles for the application.
-- **package.json**: Project configuration and dependencies.
+- **client.js**: Entry point for the client-side application.
+- **server.js**: Entry point for the Server-side application.
+- **index.html**: HTML template for the application.
+- **Readme.md**: Project documentation.
 
 ## License
 
